@@ -1,20 +1,20 @@
-# SpamOverflow Email Filtering Service
+#  SpamOverflow-SpamHammer Email Filtering Service
 
-SpamOverflow is a microservices-based email filtering platform designed to scan and filter malicious emails. This project implements a scalable web API for scanning emails using the spamhammer tool provided.
+ SpamOverflow-SpamHammer is a microservices-based email filtering platform designed to scan and filter malicious emails. This project implements a scalable web API for scanning emails using the spamhammer tool provided.
 
 ## Introduction
 
-For this assignment, you are working for SpamOverflow, a new competitor in the email security space. SpamOverflow uses a microservices-based architecture to implement their new malicious email filtering platform.
+For this assignment, you are working for  SpamOverflow-SpamHammer, a new competitor in the email security space.  SpamOverflow-SpamHammer uses a microservices-based architecture to implement their new malicious email filtering platform.
 
 ## Requirements
 
 ### Email Filtering Software
 
-SpamOverflow will implement a service that does not impede the flow of traffic (i.e., does not prevent the email arriving). It will receive an API call when the mail server receives an email message. The service then pulls the email from the user’s inbox as fast as it can to prevent the user from seeing the malicious email or clicking any links.
+ SpamOverflow-SpamHammer will implement a service that does not impede the flow of traffic (i.e., does not prevent the email arriving). It will receive an API call when the mail server receives an email message. The service then pulls the email from the user’s inbox as fast as it can to prevent the user from seeing the malicious email or clicking any links.
 
 ### Interface
 
-The interface specification is available to all service owners online: [SpamOverflow API Specification](https://csse6400.uqcloud.net/assessment/spamoverflow)
+The interface specification is available to all service owners online: [ SpamOverflow-SpamHammer API Specification](https://csse6400.uqcloud.net/assessment/ SpamOverflow-SpamHammer)
 
 ### Implementation
 
@@ -35,20 +35,6 @@ Please make note of the [AWS services](https://labs.vocareum.com/web/2460291/156
 You may not use services or products from outside of the AWS Learner Lab environment.
 
 ## Directory Structure
-spamoverflow/
-    ├── app/
-    │   ├── __init__.py
-    │   ├── models.py
-    │   ├── routes.py
-    │   └── utils.py
-    ├── Dockerfile
-    ├── requirements.txt
-    ├── terraform/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   └── outputs.tf
-    ├── local.sh
-    └── README.md
 ```
 
 - **app/**: Contains the Flask application code.
@@ -70,13 +56,13 @@ spamoverflow/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/spamoverflow.git
+   git clone https://github.com/yourusername/ SpamOverflow-SpamHammer.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd spamoverflow
+   cd  SpamOverflow-SpamHammer
    ```
 
 3. Build and run the Docker container locally:
