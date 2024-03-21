@@ -56,7 +56,7 @@ You may not use services or products from outside of the AWS Learner Lab environ
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ SpamOverflow-SpamHammer.git
+   git clone https://github.com/larry99yyz/SpamOverflow-SpamHammer.git
    ```
 
 2. Navigate to the project directory:
