@@ -1,6 +1,3 @@
-Certainly! Here's the combined README.md with all the content provided:
-
-```markdown
 # SpamOverflow Email Filtering Service
 
 SpamOverflow is a microservices-based email filtering platform designed to scan and filter malicious emails. This project implements a scalable web API for scanning emails using the spamhammer tool provided.
@@ -38,8 +35,6 @@ Please make note of the [AWS services](https://labs.vocareum.com/web/2460291/156
 You may not use services or products from outside of the AWS Learner Lab environment.
 
 ## Directory Structure
-
-```
 spamoverflow/
     ├── app/
     │   ├── __init__.py
@@ -143,7 +138,6 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
+
 
 You can copy this entire markdown content and save it as `README.md` in your project directory. Adjustments can be made based on specific project requirements.
